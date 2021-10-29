@@ -21,8 +21,6 @@ public class Println_VS_Print {
 
 
 
-
-
     }
 
 }
