@@ -63,7 +63,9 @@ public class PrimitivesIntro {
         String city = "McLean";
         String state = "Virginia";
         String country = "USA";
+
         System.out.println("name = " + name);
+        System.out.println("city = " + city);
 
 
 
