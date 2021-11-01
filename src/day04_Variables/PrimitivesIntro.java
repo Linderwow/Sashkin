@@ -59,6 +59,12 @@ public class PrimitivesIntro {
 
 
 
+        String name =  "Wooden Spoon";
+        String city = "McLean";
+        String state = "Virginia";
+        String country = "USA";
+        System.out.println("name = " + name);
+
 
 
     }
