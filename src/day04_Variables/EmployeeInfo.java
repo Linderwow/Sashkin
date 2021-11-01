@@ -4,7 +4,7 @@ public class EmployeeInfo {
 
     public static void main(String[] args) {
 
-        String name = "Maria";
+        String employeeName = "Shay";
         int age = 24;
         char gender = 'F';
         String company = "Apple Inc";
@@ -16,7 +16,7 @@ public class EmployeeInfo {
         String employeeId = "A101";
         String SSN = "(123)-45-6789";
 
-        System.out.println("name = " + name);
+        System.out.println("employeeName = " + employeeName);
         System.out.println("employeeId = " + employeeId);
         System.out.println("gender = " + gender);
         System.out.println("age = " + age);
@@ -33,8 +33,8 @@ public class EmployeeInfo {
 
 }
 /*
-6. Create a class named EmployeeInfo. declare the following variables:
-				1. name (String)
+6. Create a class employeeNamed EmployeeInfo. declare the following variables:
+				1. employeeName (String)
 				2. age (int)
 				3. gender (char)
 				4. company (String)
