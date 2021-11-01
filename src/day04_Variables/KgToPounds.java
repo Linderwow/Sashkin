@@ -7,7 +7,7 @@ public class KgToPounds {
 
         double lb = kg * 2.2;
 
-        System.out.println("kg = " + kg);
+     //   System.out.println("kg = " + kg);
         System.out.println("lb = " + lb);
 
     }
