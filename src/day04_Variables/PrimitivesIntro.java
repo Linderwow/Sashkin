@@ -14,7 +14,18 @@ public class PrimitivesIntro {
 
         //salary: 100000 $
        // short salary = 100000; // 100000 is out of short' range
-        int salary = 100000; // int is the preferred data type for integer numbers
+        int salary = 100_000; // int is the preferred data type for integer numbers
+
+        long asset = 3_333_333_333L;
+
+
+        //tax: 0.26
+        float tax = 0.26F;
+
+        double PI = 3.14;
+
+
+
 
 
 
