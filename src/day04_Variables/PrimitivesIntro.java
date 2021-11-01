@@ -64,8 +64,19 @@ public class PrimitivesIntro {
         String state = "Virginia";
         String country = "USA";
 
+       // String name = "John";
+
         System.out.println("name = " + name);
         System.out.println("city = " + city);
+
+        String first_name$ = "Muhtar";
+        int num1 =100;
+        int num2 = 200;
+
+        //int private = 300;
+
+        double salaryAfterTax = 2.5;
+        //int salaryAfterTax = 3.5;
 
 
 
