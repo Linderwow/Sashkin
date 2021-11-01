@@ -6,9 +6,9 @@ public class Currencies {
         // $1000
         int dollar = 1000;
 
-        double lira = dollar * 9.53 ;
+        double lira = dollar * 9.8;
         double euro = dollar * 0.86 ;
-        double JPY = dollar * 114.14;
+        double JPY = dollar * 115;
         double pound = dollar * 0.73;
         double CAD = dollar * 1.24;
 
