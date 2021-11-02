@@ -7,7 +7,7 @@ public class FullName {
         String firstName = "Aaron";
         String lastName = "Daniel";
         int age = 19;
-        String jobTitle = "SDET";
+        String jobTitle = "Senior SDET";
         String companyName = "Apple Inc";
         double salary = 100000.58;
 
@@ -19,8 +19,9 @@ public class FullName {
         //___ is __ years old
         System.out.println(fullName + " is " + age +" years old"  );
 
-        //FullName is JobTitle, works at CompanyName, and FullName' salary is Salary
-
+        //FullName is JobTitle, works at CompanyName, and FullName's salary is Salary
+        System.out.println(fullName + " is " + jobTitle +", works at " + companyName
+                +", and "+fullName +"'s salary is $"+salary );
 
 
     }
