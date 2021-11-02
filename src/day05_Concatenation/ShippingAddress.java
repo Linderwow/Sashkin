@@ -28,10 +28,9 @@ public class ShippingAddress {
 
         */
 
-      //  System.out.println(name + "\n" + buildingNumber + " " + streetName + "\n" + city +", " + state +" " + zipCode );
+    //  System.out.println(name + "\n" + buildingNumber + " " + streetName + "\n" + city +", " + state +" " + zipCode );
 
         String address = name + "\n" + buildingNumber + " " + streetName + "\n" + city +", " + state +" " + zipCode;
-
         System.out.println(address);
 
 
