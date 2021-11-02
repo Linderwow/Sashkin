@@ -22,8 +22,6 @@ public class StudentInfo {
         System.out.println("isFullTime = " + isFullTime);
 
 
-
-
     }
 
 }
