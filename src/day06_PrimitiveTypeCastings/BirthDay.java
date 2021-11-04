@@ -25,6 +25,12 @@ public class BirthDay {
 
          */
 
+        /*
+        System.out.println(x);
+        int x =200;
+
+         */
+
 
     }
 
