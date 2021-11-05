@@ -47,8 +47,37 @@ public class RelationalOperators {
 
         System.out.println("------------------------------------------");
 
+        int x = 100;
+        int y = 200;
 
+        boolean equal =   x == y; // false
+        //               100 == 200
 
+        System.out.println("equal = " + equal);
+
+        boolean result8 =   "Muhtar" == "Good Guy" ; // false
+
+        System.out.println("result8 = " + result8);
+
+        boolean result9 = 'A' == 'a'; // false
+
+        System.out.println("result9 = " + result9);
+
+        boolean result10 =  "Java" == "Java"; // true
+        System.out.println("result10 = " + result10);
+
+        //"Hello World" ==  "hello world" ==> false
+
+        System.out.println("---------------------------------------------");
+
+        boolean result11 =  100 != 200.5; //true
+        System.out.println("result11 = " + result11);
+
+        boolean result12 =  "Java" != "Break"; // true
+        System.out.println("result12 = " + result12);
+
+        boolean result13 =   300 != 300; // false
+        System.out.println("result13 = " + result13);
 
 
     }
