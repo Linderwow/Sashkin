@@ -33,11 +33,14 @@ public class SingleIfStatementIntro {
         }
 
         // negative
-        if(n < 0){
+        if(n < 0){ // if n is less than zero, then it's negative
             System.out.println(n+" is negative");
         }
 
         // zero
+        if(n == 0) {
+            System.out.println(n + " is zero");
+        }
 
 
     }
