@@ -6,6 +6,9 @@ public class MedianNumber {
         int a = 20,
                 b = 50,
                 c = 10;
+        // if we have three different numbers, one MUST maximum, one MUST be minimum and one MUST be Median
+
+
 
         //               a= 15, b= 10, c = 20    a = 15, c = 10, b = 20
         boolean aIsMedian = (a > b  && a < c) || (a > c && a < b);
