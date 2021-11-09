@@ -20,6 +20,11 @@ public class MedianNumber {
 
         //              b=15, a = 20, c = 10,       b= 15,  a = 10, c= 20
         boolean bIsMedian = (b > c && b < a)  || (b > a && b < c);
+        /*
+        in order of b to be the median number:
+
+         */
+
 
         boolean cIsMedian = !aIsMedian && !bIsMedian;
 
