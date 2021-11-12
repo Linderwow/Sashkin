@@ -7,6 +7,7 @@ public class NameOfMonth {
         String result = "" ; // temporary
 
         if(number>= 1 && number <= 12){ //if the number is valid (1~12)
+
             if(number == 1){
                 result = "January";
             }else if(number == 2){
@@ -32,6 +33,7 @@ public class NameOfMonth {
             }else{
                 result = "December";
             }
+
         }else{ //if the number is not valid
             result = "Invalid Number";
         }
