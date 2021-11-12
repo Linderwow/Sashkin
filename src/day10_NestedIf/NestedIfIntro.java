@@ -41,8 +41,9 @@ public class NestedIfIntro {
 
         System.out.println("-------------------------------------------");
 
-        int number = -1;
+        int number = 25;
 
+        // 1 <= number <= 7
         if(number >= 1 && number<= 7){ // if the number is a valid number (1~7)
 
             if(number == 1){
