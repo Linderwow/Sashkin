@@ -12,9 +12,9 @@ public class GradeReport {
         0 ~ 59: failed
          */
 
-        int score = 95;
+        int score = 135;
 
-        if(score >= 0 && score <= 100){ // if the score is valid
+        if(score >= 0 && score <= 100){ // if the score is valid (0 ~ 100 )
             // 5 possibilities: A, B, C, D, F
             if(score>= 90 ){ //false:  score < 90
                 System.out.println("Excellent");
@@ -31,6 +31,29 @@ public class GradeReport {
         }else{ // if the score is NOT valid
             System.out.println("Invalid Score");
         }
+
+        System.out.println("------------------------");
+
+        String result = ""; // temporary
+
+        if(score >= 0 && score <= 100){ // if the score is valid (0 ~ 100 )
+
+            if(score>= 90 ){ //false:  score < 90
+               result = "Excellent";
+            }else if(score >= 80 ){ // false: score < 80
+                result = "Great";
+            }else if(score >= 70){ // false: score < 70
+                result = "Good";
+            }else if(score >= 60){// false: score < 60
+                result = "Passed";
+            }else{
+                result = "Failed";
+            }
+
+        }else{ // if the score is NOT valid
+            result = "Invalid Score";
+        }
+
 
 
 
