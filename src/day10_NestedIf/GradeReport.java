@@ -32,7 +32,7 @@ public class GradeReport {
             System.out.println("Invalid Score");
         }
 
-        System.out.println("------------------------");
+        System.out.println("------------------------------------------");
 
         String result = ""; // temporary
 
@@ -55,6 +55,7 @@ public class GradeReport {
         }
 
 
+        System.out.println( result);
 
 
 
