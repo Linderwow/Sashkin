@@ -3,7 +3,7 @@ package day11_Switch_Scanner;
 public class Browsers {
 
     public static void main(String[] args) {
-        String browserName = "chrome";
+        String browserName = "firefox";
 
         String result = "";
 
@@ -29,6 +29,7 @@ public class Browsers {
             result = "Invalid Browser Name";
         }
 
+        System.out.println(result);
 
 
     }
