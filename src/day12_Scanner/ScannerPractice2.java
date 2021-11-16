@@ -16,6 +16,7 @@ public class ScannerPractice2 {
 
         System.out.println("name = " + name); // Java
 
+        input.close();
 
     }
 
