@@ -30,6 +30,9 @@ public class NextLinePractice {
         System.out.println("schoolName = " + schoolName);
 
 
+        input.close();
+
+
     }
 
 }
