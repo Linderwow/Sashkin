@@ -23,8 +23,6 @@ public class ScannerIntro {
 
         input.close(); // closes the scanner, after this scanner can not be used anymore
 
-
-
 /*
         System.out.println("Enter an integer:");
         int num3 = input.nextInt();
