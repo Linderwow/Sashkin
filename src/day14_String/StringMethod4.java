@@ -19,6 +19,13 @@ public class StringMethod4 {
 
         System.out.println( "FADY\n".repeat(15) );
 
+        System.out.println("-------------------------");
+
+        String name = "Java";
+
+      //  System.out.println(  name.repeat(5));
+
+        System.out.println( (name +" ").repeat(5)   );
 
 
 
