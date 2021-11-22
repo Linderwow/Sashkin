@@ -1,6 +1,17 @@
 package day15_ForLoop;
 
+import java.util.Scanner;
+
 public class MinimumNumber {
+
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        int min= 2147483647; //
+
+
+
+    }
 
 }
 
