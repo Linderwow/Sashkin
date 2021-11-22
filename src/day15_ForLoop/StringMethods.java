@@ -59,6 +59,18 @@ public class StringMethods {
         System.out.println(input1.toUpperCase().contains("JAVA")); // true
 
         System.out.println("-----------------------------");
+        String a = "Wooden Spoon"; //"wooden spoon"
+
+        boolean x = a.startsWith("Woo");
+        boolean y = a.endsWith("Spoon");
+        boolean z = a.toLowerCase().startsWith("wooden");
+        // in order to ignore the case sensitivity we first create the lower case/upper case version of string and then compare it with lowercase/uppercase
+
+        System.out.println(x);
+        System.out.println(y);
+
+
+
 
 
     }
