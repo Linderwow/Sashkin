@@ -19,6 +19,8 @@ public class StringMethods {
 
         System.out.println(str2.isBlank());
 
+        System.out.println(str2.repeat(4));
+
         System.out.println("----------------------------------------");
 
         String s1 = "CYDEO";
