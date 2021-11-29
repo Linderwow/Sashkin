@@ -20,7 +20,6 @@ public class FrequencyOfWord {
 
         System.out.println(frequency);
 
-
     }
 
 }
