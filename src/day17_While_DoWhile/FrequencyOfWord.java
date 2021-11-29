@@ -8,7 +8,7 @@ public class FrequencyOfWord {
 
         int frequency = 0;
 //                              8 - 4
-        for (int i = 0; i < str.length()-3; i++) {
+        for (int i = 0; i <= str.length()-4; i++) {
             String eachSub =    str.substring(i, i+4 );
             //System.out.println(eachSub);
 
