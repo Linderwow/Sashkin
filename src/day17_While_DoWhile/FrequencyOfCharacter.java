@@ -13,7 +13,8 @@ public class FrequencyOfCharacter {
             char eachChar = str.charAt(i);  //eachChar: each character of str
 
             if(ch == eachChar){ // if given ch is matching with the eachChar, then ch is appeared in the string
-                frequency++;
+               // frequency++;
+                frequency += 1;
             }
 
         }
