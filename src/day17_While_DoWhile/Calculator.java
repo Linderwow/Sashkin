@@ -23,6 +23,7 @@ public class Calculator {
             ch = scan.next().charAt(0);
         }
 
+
         /*
         for(int i =0; !(ch == '+' || ch == '-'); ){
             System.err.println("Invalid Operator, Please re-enter");
