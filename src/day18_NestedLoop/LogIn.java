@@ -18,7 +18,7 @@ public class LogIn {
             System.out.println("Logged In");
         }else{
 
-            for (int i = 1; i < 4; i++) {
+            for (int i = 1; i < 3; i++) {
                 System.out.println("Incorrect username or password");
                 System.out.println("Enter your username:");
                 u= scan.next();
