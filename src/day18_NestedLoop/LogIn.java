@@ -39,6 +39,7 @@ public class LogIn {
         }
 
 
+        scan.close();
 
 
     }
