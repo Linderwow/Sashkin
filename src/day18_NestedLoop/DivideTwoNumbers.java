@@ -9,10 +9,11 @@ public class DivideTwoNumbers {
 
         int count = 0; // count = 1+1=2+1 = 3+1 =4
 
-       while(a >= b){
-           a -= b;
-           count++;
-       }
+        while (a >= b) {
+            a -= b;
+            count++;
+        }
+
 
         System.out.println(count+" with a remainder of "+a);
 
