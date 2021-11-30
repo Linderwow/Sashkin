@@ -17,7 +17,6 @@ public class DivideTwoNumbers {
         System.out.println(count+" with a remainder of "+a);
 
 
-
     }
 
 }
