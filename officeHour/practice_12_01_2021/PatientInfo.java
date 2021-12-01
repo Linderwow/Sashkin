@@ -46,7 +46,11 @@ public class PatientInfo {
         System.out.println("====Escape Sequences====");
         System.out.println("\tname: "+name+"\n\tage: "+age+"\n\tgender: "+gender);
 
-
+        if(havingInsurance){
+            System.out.println("copay of patient = " + copayWithInsurance);
+        }else{
+            System.out.println("copayWithoutInsurance = " + copayWithoutInsurance);
+        }
 
     }
 }
