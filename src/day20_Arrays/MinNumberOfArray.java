@@ -10,8 +10,8 @@ public class MinNumberOfArray {
 
         for (int i = 0; i < numbers.length; i++) {//i: 0,1,2,3...
 
-            if(numbers[i] < min){
-               min = numbers[i];
+            if(numbers[i] < min){ // if there is an element in the array that's smaller
+               min = numbers[i]; // smaller number will be assigned to the variable min
             }
 
         }
