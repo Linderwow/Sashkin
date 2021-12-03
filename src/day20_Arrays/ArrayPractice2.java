@@ -28,12 +28,6 @@ public class ArrayPractice2 {
         System.out.println(Arrays.toString(letters));  //[A~Z]
 
 
-        System.out.println("-------------------------------");
-
-        char[] letters2 = new char[26];  //[Z~A]
-
-
-
 
     }
 
