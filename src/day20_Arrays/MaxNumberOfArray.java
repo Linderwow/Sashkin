@@ -15,10 +15,7 @@ public class MaxNumberOfArray {
 
         }
 
-
         System.out.println(max);
-
-
 
 
     }
