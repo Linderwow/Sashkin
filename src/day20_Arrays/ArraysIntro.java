@@ -25,6 +25,8 @@ public class ArraysIntro {
         String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
         //index:            0          1           2           3          4          5           6
 
+     //   days[7] = "JavaDay";
+
         System.out.println( Arrays.toString(days) );
 
         int number = 1;
