@@ -33,6 +33,8 @@ public class ArrayPractice2 {
         char[] letters2 = new char[26];  //[Z~A]
 
 
+
+
     }
 
 }
