@@ -22,6 +22,10 @@ public class Alphabet {
         }
 */
 
+        for(char i = 0, j = 'Z';  i < alphabets.length; i++, j-- ){
+            alphabets[i] = j;
+        }
+
 
      //   System.out.println( alphabets );
         System.out.println( Arrays.toString(alphabets) ); // print the whole array
