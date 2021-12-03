@@ -15,17 +15,16 @@ public class Alphabet {
             ...
         */
 
-        /*
         char ch = 'Z';
         for(int i = 0; i < alphabets.length; i++, ch-- ){
             alphabets[i] = ch;
         }
-*/
 
+/*
         for(char i = 0, j = 'Z';  i < alphabets.length; i++, j-- ){
             alphabets[i] = j;
         }
-
+*/
 
      //   System.out.println( alphabets );
         System.out.println( Arrays.toString(alphabets) ); // print the whole array
