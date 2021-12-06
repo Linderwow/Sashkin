@@ -12,6 +12,7 @@ public class Items {
         int[] itemIDs =   {12345 ,  12346,  12347,  12348,  12349,   12350};
         //                   0        1       2       3       4        5
 
+
         for (int i = 0; i < items.length; i++) {
             String item = items[i];
             double price = prices[i];
@@ -20,8 +21,6 @@ public class Items {
             System.out.println(item+" - "+id +" - $"+price);
 
         }
-
-
 
     /*
         itemName - itemId - price
