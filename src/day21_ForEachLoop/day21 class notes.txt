@@ -40,6 +40,15 @@ String methods:
 				"ABC".split("")  ===>  {"A", "B", "C"}
 
 
+For Each Loop: a loop that's already iterated.
+					iteration starts from index 0
+
+			 pre-condition: there MUST be a data structure
+
+
+			 for(DataType each : Array ){
+			 		
+			 }
 
 
 
