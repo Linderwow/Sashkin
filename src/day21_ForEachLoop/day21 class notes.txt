@@ -1,0 +1,28 @@
+Java Day21
+Topics: Arrays Utility Class: sort(), toString(), equals(), copyOf(), copyOfRange()
+		For Each Loop
+		String methods: toCharArray(), split()
+
+
+package name: day21_ForEachLoop
+
+
+
+Arrays Utility class:
+			
+		toString(array): converts the array object (single dimensional) to string, returns string
+		sort(array): sorts the array in ascending order
+
+					ascending order: smallest to larget
+										 0 ~ 9
+										 -10 ~ 10
+										 a ~ z (97)
+										 A ~ Z (65)
+
+		equals(array1, array2):
+
+
+
+
+
+
