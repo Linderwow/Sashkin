@@ -33,9 +33,11 @@ String methods:
 				"abc".toCharArray() ====> {'a', 'b', 'c'}
 
 
-		split()
+		split(value): retruns String array
 
+				"I love learning java programming language".split(" ") ===> {"I", "love", "learning" ,"java", "programming" ....}
 
+				"ABC".split("")  ===>  {"A", "B", "C"}
 
 
 
