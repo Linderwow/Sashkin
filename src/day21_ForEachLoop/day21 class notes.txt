@@ -19,10 +19,15 @@ Arrays Utility class:
 										 a ~ z (97)
 										 A ~ Z (65)
 
-		equals(array1, array2):
+		equals(array1, array2): checks if two arrays are equal, returns boolean
+
+		copyOf(array, newLength)
 
 
 
 
 
 
+Anagram:
+	 listen    silent
+	 heart	   earth
