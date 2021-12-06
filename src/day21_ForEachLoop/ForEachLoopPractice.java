@@ -6,7 +6,9 @@ public class ForEachLoopPractice {
 
         String[] words = {"Java Programming", "Cydeo School", "Wooden Spoon", "Early Birds", "Angry Birds"};
 
-
+        for(String  each : words ){
+            System.out.println( each.charAt(0)+ ""+ each.charAt( each.length()-1 )  );
+        }
 
 
 
