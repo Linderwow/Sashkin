@@ -21,7 +21,9 @@ Arrays Utility class:
 
 		equals(array1, array2): checks if two arrays are equal, returns boolean
 
-		copyOf(array, newLength)
+		copyOf(array, newLength): copys the elements of the array, starting from first element to given number, returns new array
+
+		copyOfRange(array, beginningIndex, endingIndex): copys the elements of the array, staring from beginning index till the ending index (ending index excluded), returns new array
 
 
 
