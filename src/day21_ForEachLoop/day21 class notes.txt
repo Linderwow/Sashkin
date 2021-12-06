@@ -7,7 +7,6 @@ Topics: Arrays Utility Class: sort(), toString(), equals(), copyOf(), copyOfRang
 package name: day21_ForEachLoop
 
 
-
 Arrays Utility class:
 			
 		toString(array): converts the array object (single dimensional) to string, returns string
@@ -24,6 +23,19 @@ Arrays Utility class:
 		copyOf(array, newLength): copys the elements of the array, starting from first element to given number, returns new array
 
 		copyOfRange(array, beginningIndex, endingIndex): copys the elements of the array, staring from beginning index till the ending index (ending index excluded), returns new array
+
+
+
+
+String methods:
+	
+		toCharArray(): retrusn a char array
+				"abc".toCharArray() ====> {'a', 'b', 'c'}
+
+
+		split()
+
+
 
 
 
