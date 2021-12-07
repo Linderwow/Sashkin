@@ -112,6 +112,6 @@ Topic :   Single_If
 
 							INPUT for quantity :  5 		 							EXPECTED : No discount applied
 
-							INPUT for quantiy  :  15									EXPECTED : You get a discount of $discount and 																			   your total cost is $totalCost
+							INPUT for quantiy  :  15									EXPECTED : You get a discount of $discount and your total cost is $totalCost
 
 
