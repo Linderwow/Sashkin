@@ -42,6 +42,11 @@ public class MultiDimensionalArray2 {
         }
 
 
+        System.out.println("-----------------------------------------");
+
+        int[][][][] arr4D = { };
+
+
 
     }
 
