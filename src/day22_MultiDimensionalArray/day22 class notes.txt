@@ -19,3 +19,14 @@ warmup task:
 			output:
 				I evoL Java
 
+
+Single Dimensional Array: container for the elemnts
+		10
+		20
+		40
+
+		int[] array = {10, 20, 30};
+
+
+Multi Dimensional Array: container for the arrays
+	
