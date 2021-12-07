@@ -12,7 +12,7 @@ public class ReverseSecondWord {
 
         String reverse ="";
 
-        for(int i = words[1].length()-1; i >= 0; i-- ){
+        for(int i = words[1].length()-1; i >= 0; i++ ){
             reverse += words[1].charAt(i);
         }
 
