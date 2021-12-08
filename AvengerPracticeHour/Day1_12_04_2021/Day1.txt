@@ -1,10 +1,9 @@
-
+            Topics:
               1.Type Casting
               2.String Practices
 
 
               1. Type Casting
-
 
                 a.Implicit Casting
                   -Done by compiler
@@ -24,7 +23,7 @@
                   int b=(int)a;
 
 
-         String Methods:
+         2. String Methods:
 
                    charAt();
                    length();
