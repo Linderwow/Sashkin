@@ -89,8 +89,6 @@ Method: Function
 		parameter: Any Data Type
 
 
-
-
 Custom Methods:
 	1. void methods
 	2. void methods with argumnets
@@ -101,8 +99,6 @@ Custom Methods:
 
 
 create a function that can print all the numbers between X and Y
-
-
 
 
 
