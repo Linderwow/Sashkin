@@ -10,6 +10,9 @@ public class CustomMethodsPractice {
 
         helloCydeo5Times();
 
+        System.out.println("------------------------------");
+
+        evenNumbers();
 
     }
 
