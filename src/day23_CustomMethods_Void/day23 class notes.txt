@@ -91,6 +91,12 @@ Method: Function
 
 
 
+Custom Methods:
+	1. void methods
+	2. void methods with argumnets
+	3. return methods
+	4. returns with argumnet
+	5. overloading
 
 
 
