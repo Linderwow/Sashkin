@@ -81,10 +81,14 @@ Task:
 	3. create a method that can return the minimum number from an array of integers
 
 	4. create a method that return the reversed array
+					{1,2,3,4,5} === > {5,4,3,2,1}
+
 
 	5. create a method that can merge two arrays and returnj the new array
+				arr1 = {1,2,3}
+				arr2 = {4,5}
 
-
+				{1,2,3,4,5}
 
 
 
