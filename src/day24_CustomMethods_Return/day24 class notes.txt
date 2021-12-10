@@ -47,3 +47,15 @@ method: grouping code fragments ===> creating a function
 
 
 
+What's method?
+What's void method?
+what's parameter?
+
+What's return method?
+
+
+
+
+
+
+
