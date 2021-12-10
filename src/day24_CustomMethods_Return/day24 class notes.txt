@@ -74,6 +74,19 @@ branching statements:
 
 Task: 
 	1. create a method that can remove duplciated characters from a string and returns the new value
+					"aaabbcccc" ===> "abc"
+
+	2. create a method that can return the maximum number from an array of integers
+
+	3. create a method that can return the minimum number from an array of integers
+
+	4. create a method that return the reversed array
+
+	5. create a method that can merge two arrays and returnj the new array
+
+
+
+
 
 
 
