@@ -5,7 +5,7 @@ public class ReturnStatement {
 
     public static void main(String[] args) {
 
-        nameOfDay(10);
+        nameOfDay(6);
 
     }
 
