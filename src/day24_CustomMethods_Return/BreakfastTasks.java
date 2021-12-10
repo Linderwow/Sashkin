@@ -15,8 +15,10 @@ public class BreakfastTasks {
         initial = initial.toUpperCase();
         System.out.println("initial = " + initial);
 
+
     }
 
+    //2. Create a method that can display the domain of the email.  domain(String email)
 
 
 }
