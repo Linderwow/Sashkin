@@ -63,4 +63,16 @@ return statement: used for exiting the method
 				 we can use it for returning a value from return methods
 
 
+branching statements:
+	continue: skiping the current iteration
+	break: exits the loop or switch
+	return: exiting the method (one method, current method)
+	System.exit(0): exits the system (EVERY THING WILL BE TERMINATED)
+
+
+
+
+
+
+
 
