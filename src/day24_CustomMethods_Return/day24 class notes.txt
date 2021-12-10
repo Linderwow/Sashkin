@@ -39,6 +39,7 @@ method: grouping code fragments ===> creating a function
 
 		ReturnType: void, any dataType
 				void: does not return a value
+				any dataType: MUST return a value
 
 		Parameter: any dataType (if the method needs additional info)
 
@@ -54,8 +55,12 @@ what's parameter?
 What's return method?
 
 
+return method: return type is not void
+				MUST return a vlaue
 
 
+return statement: used for exiting the method
+				 we can use it for returning a value from return methods
 
 
 
