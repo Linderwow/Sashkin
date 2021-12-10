@@ -16,9 +16,8 @@ public class ReturnStatement {
 
         if(number < 1 || number > 7){ // if the number is invalid
             System.out.println("Invalid");
-            return; // exits nameOfDay method
+            return ; // exits nameOfDay method
         }
-
 
         if(number == 1){
             System.out.println("Monday");
