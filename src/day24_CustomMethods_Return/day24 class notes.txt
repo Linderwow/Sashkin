@@ -72,7 +72,8 @@ branching statements:
 
 
 
-
+Task: 
+	1. create a method that can remove duplciated characters from a string and returns the new value
 
 
 
