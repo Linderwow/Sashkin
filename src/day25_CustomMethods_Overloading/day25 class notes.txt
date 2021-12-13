@@ -27,4 +27,5 @@ Warmup tasks:
 	    4. create a return method called addChar that can add a char after last index of a char array
 
 
-	
+
+Method Overloading: same method name, different parameters
