@@ -31,6 +31,10 @@ public class AddElementsToArray {
 
         System.out.println("--------------------------------------");
 
+        char[] chars = {'A', 'B', 'C', 'D'};
+        chars = addChar(chars, 'E'); //{'A', 'B', 'C', 'D', 'E'}
+
+        System.out.println(Arrays.toString(chars));
 
 
     }
@@ -85,7 +89,23 @@ public class AddElementsToArray {
     }
     
     
+    //4. create a return method called addChar that can add a char after last index of a char array
+    public static char[] addChar(char[] array, char element){
+        char[] result = new char[array.length + 1];
 
+        int i =0;
+        for (char each : array) {
+            result[i++] = each;
+        }
+
+        result[result.length-1] = element; // element need to be assigned to the last index
+        // result[i] = element;
+
+        return result;
+
+    }
+
+    
 }
 /*
 Task2:
