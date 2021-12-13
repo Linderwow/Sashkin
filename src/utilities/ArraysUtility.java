@@ -58,13 +58,11 @@ public class ArraysUtility {
     }
 
 
-
     //returns the minimum number from double array
     public static double min(double[] numbers){
         Arrays.sort(numbers);
         return numbers[0];
     }
-
 
 
 
@@ -127,6 +125,8 @@ public class ArraysUtility {
 
         return result;
     }
+
+
 
 
 

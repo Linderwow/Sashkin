@@ -46,6 +46,13 @@ public class Test2 {
         System.out.println("max2 = " + max2);
 
         System.out.println("--------------------------------");
+        
+        
+        int[] a1 = {1,2,3,4,5,6,7};  
+        
+        boolean r1 = ArraysUtility.contains(a1, 10);
+
+        System.out.println("r1 = " + r1);
 
 
 
