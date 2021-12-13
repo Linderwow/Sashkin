@@ -17,6 +17,9 @@ Warmup tasks:
 	Task2:
 		1. create a return method called addInteger that can add an Inteeger  after the  last index of an integer array
 
+					{1,2,3,4}, 5
+					new array ==> {1,2,3,4,5}
+
 	    2. create a return method called addDouble that can add a double after the last index of a double array
 
 	    3. create a return method called addString that can add a String after the last index of a String array
