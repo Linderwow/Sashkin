@@ -66,6 +66,36 @@ public class ArraysUtility {
     }
 
 
+    //checks if the given integer is contained in the given array. returns boolean.  contains(int[], int)
+    public static boolean contains(int[] array, int element){
+        //                          {1,2,3,4},    6
+        boolean result = false;
+
+        for (int each : array) {
+            if(each == element){
+                result = true;
+            }
+        }
+
+        return result;
+    }
+
+
+    //checks if the given double is contained in the given array. returns boolean.  contains(int[], int)
+    public static boolean contains(double[] array, double element){
+
+        boolean result = false;
+
+        for (double each : array) {
+            if(each == element){
+                result = true;
+            }
+        }
+
+        return result;
+    }
+
+
 
 
 
