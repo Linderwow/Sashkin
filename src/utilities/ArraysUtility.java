@@ -18,12 +18,25 @@ public class ArraysUtility {
     }
 
 
-
+    //prints each char of char array in separate lines
     public static void printEach(char[] array){
         for (char each : array) {
             System.out.println(each);
         }
     }
+
+
+    //prints each String of String array in separate lines
+    public static void printEach(String[] array){
+        for (String each : array) {
+            System.out.println(each);
+        }
+    }
+
+
+
+
+
 
 
 
