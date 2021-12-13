@@ -128,6 +128,17 @@ public class ArraysUtility {
 
 
 
+    //merger
+    //addElements
+    //removeElements
+    //reverse
+    //frequencyOfElement
+    //uniqueElement
+    //removeDuplicates
+
+
+
+
 
 
 }
