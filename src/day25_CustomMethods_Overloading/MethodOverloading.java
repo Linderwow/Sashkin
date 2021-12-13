@@ -27,9 +27,13 @@ public class MethodOverloading {
         int sum3 = sumOfNumbers(10, 20, 30, 40);
 
         // sum of 18.2 and 30.7
-        double num4 = sumOfNumbers(18.2, 30.7);
+        double sum4 = sumOfNumbers(18.2, 30.7);
 
+        //sum of 5.5, 4.5, 6.5
+        double sum5 = sumOfNumbers(4.5 , 5.5, 6.5);
 
+        // sum of 4.5, 3.5, 2.5, 6.5
+        double sum6 = sumOfNumbers(4.5 , 3.5, 2.5, 6.5);
 
 
     }
