@@ -1,5 +1,7 @@
 package utilities;
 
+import java.util.Arrays;
+
 public class ArraysUtility {
 
     //prints each integer of an integer array in separate lines
@@ -32,6 +34,21 @@ public class ArraysUtility {
             System.out.println(each);
         }
     }
+
+
+    //returns the maximum number for integer array
+    public static int max(int[] numbers){
+        Arrays.sort(numbers);
+        return numbers[numbers.length-1];
+    }
+
+
+    //returns the maximum number for double array
+    public static double max(double[] numbers){
+        Arrays.sort(numbers);
+        return numbers[numbers.length-1];
+    }
+
 
 
 
