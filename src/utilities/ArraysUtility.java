@@ -112,6 +112,20 @@ public class ArraysUtility {
 
 
 
+    //checks if the given String is contained in the given array. returns boolean.
+    public static boolean contains(String[] array, String element){
+
+        boolean result = false;
+
+        for (String each : array) {
+            if( each.equals(element) ){
+                result = true;
+            }
+        }
+
+        return result;
+    }
+
 
 
 }
