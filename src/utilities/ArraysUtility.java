@@ -66,13 +66,15 @@ public class ArraysUtility {
     }
 
 
+
+
     //checks if the given integer is contained in the given array. returns boolean.  contains(int[], int)
     public static boolean contains(int[] array, int element){
-        //                          {1,2,3,4},    6
+
         boolean result = false;
 
         for (int each : array) {
-            if(each == element){
+            if(each == element){ // if any array's element is matching with the given element, it means the given elements is contained in the array
                 result = true;
             }
         }
