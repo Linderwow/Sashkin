@@ -36,14 +36,14 @@ public class ArraysUtility {
     }
 
 
-    //returns the maximum number for integer array
+    //returns the maximum number from integer array
     public static int max(int[] numbers){
         Arrays.sort(numbers);
         return numbers[numbers.length-1];
     }
 
 
-    //returns the maximum number for double array
+    //returns the maximum number from double array
     public static double max(double[] numbers){
         Arrays.sort(numbers);
         return numbers[numbers.length-1];
@@ -51,10 +51,25 @@ public class ArraysUtility {
 
 
 
+    //returns the minimum number from integer array
+    public static int min(int[] numbers){
+        Arrays.sort(numbers);
+        return numbers[0];
+    }
+
+
+
+    //returns the minimum number from double array
+    public static double min(double[] numbers){
+        Arrays.sort(numbers);
+        return numbers[0];
+    }
 
 
 
 
-    
+
+
+
 
 }
