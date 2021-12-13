@@ -12,6 +12,20 @@ public class StringUtility {
     }
 
 
+    //reverses the given string and returns the reversed string
+    public static String reverse(String str){
+        String result = "";
+
+        for (int i = str.length()-1; i >= 0 ; i--) {
+            result += str.charAt(i);
+        }
+
+        return result;
+    }
+
+
+
+
 
 
 }
