@@ -44,6 +44,22 @@ public class StringUtility {
     }
 
 
+    //removes the duplicates from given string, returns String.
+    public static String removeDuplicates(String str){
+
+        String result = "";
+
+        for (int i = 0; i < str.length(); i++) {
+            char each = str.charAt(i);
+
+            if(!result.contains(""+each)){
+                result += each;
+            }
+
+        }
+
+        return result;
+    }
 
 
 }
