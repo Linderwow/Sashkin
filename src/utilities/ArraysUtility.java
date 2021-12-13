@@ -81,7 +81,7 @@ public class ArraysUtility {
     }
 
 
-    //checks if the given double is contained in the given array. returns boolean.  contains(int[], int)
+    //checks if the given double is contained in the given array. returns boolean.
     public static boolean contains(double[] array, double element){
 
         boolean result = false;
@@ -96,7 +96,19 @@ public class ArraysUtility {
     }
 
 
+    //checks if the given char is contained in the given array. returns boolean.
+    public static boolean contains(char[] array, char element){
 
+        boolean result = false;
+
+        for (char each : array) {
+            if(each == element){
+                result = true;
+            }
+        }
+
+        return result;
+    }
 
 
 
