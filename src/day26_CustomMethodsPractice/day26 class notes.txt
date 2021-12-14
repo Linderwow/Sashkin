@@ -4,7 +4,7 @@ Topics: Custom Methods Practice
 package name: day26_CustomMethodsPractice
 
 warmup tasks:
-	1. Create a class named FrequencyOfElements:
+	1. Create a class named FrequencyOfElement:
 			1.1 Create a method that passes two parameters: an integer array and an Integer element. The method returns the frequency of the given integer element from the integer array
 
 			1.2 Create a method that passes two parameters: a double array and a double element. The method returns the frequency of the given integer from the array
