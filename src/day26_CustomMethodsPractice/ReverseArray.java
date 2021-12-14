@@ -40,6 +40,19 @@ public class ReverseArray {
     }
 
 
+    //reverses the given array, returns a new array
+    public static char[] reverse(char[] array){
+
+        char[] result = new char[array.length];
+        int j = 0;
+        for (int i = array.length - 1; i >= 0; i--) {
+            result[j++] = array[i];
+        }
+
+        return result;
+    }
+
+
 
 
 
