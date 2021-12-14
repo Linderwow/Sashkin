@@ -19,7 +19,7 @@ public class RemoveElements1 {
     }
 
 
-    //                              {1,2,3,4,3}   ,    4
+    //removes the index from the array, returns new array
     public static int[] removeElement(int[] array, int index){
 
         if(index < 0 || index > array.length-1){
