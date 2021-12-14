@@ -51,6 +51,21 @@ public class MergeTwoArrays2 {
     }
 
 
+    // merge the given two arrays and returns the new array
+    public static char[] merge(char[] arr1, char[] arr2){
+
+        char[] result = {};
+
+        for (char each : arr1) {
+            result = ArraysUtility.addElement(result, each);
+        }
+
+        for (char each : arr2) {
+            result = ArraysUtility.addElement(result, each);
+        }
+
+        return result;
+    }
 
 
 
