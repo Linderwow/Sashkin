@@ -34,6 +34,25 @@ public class MergeTwoArrays2 {
        return result;
    }
 
+    // merge the given two arrays and returns the new array
+    public static double[] merge(double[] arr1, double[] arr2){
+
+        double[] result = {};
+
+        for (double each : arr1) {
+            result = ArraysUtility.addElement(result, each);
+        }
+
+        for (double each : arr2) {
+            result = ArraysUtility.addElement(result, each);
+        }
+
+        return result;
+    }
+
+
+
+
 
 
 
