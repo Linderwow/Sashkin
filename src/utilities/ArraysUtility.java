@@ -401,19 +401,7 @@ public class ArraysUtility {
 
 
     // merge the given two arrays and returns the new array
-    public static int[] merge(int[] arr1, int[] arr2){
-        int[] result = {};
 
-        for (int each : arr1) {
-            result = addElement(result, each);
-        }
-
-        for (int each : arr2) {
-            result = addElement(result, each);
-        }
-
-        return result;
-    }
 
 
     //merge
