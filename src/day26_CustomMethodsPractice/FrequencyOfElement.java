@@ -25,6 +25,7 @@ public class FrequencyOfElement {
         return count;
     }
 
+
     //returns the frequency of the given element from the given array
     public static int frequencyOfElement(double[] array, double element){
         int count = 0;
@@ -37,6 +38,7 @@ public class FrequencyOfElement {
         return count;
     }
 
+
     //returns the frequency of the given element from the given array
     public static int frequencyOfElement(char[] array, char element){
         int count = 0;
@@ -48,6 +50,7 @@ public class FrequencyOfElement {
 
         return count;
     }
+
 
     //returns the frequency of the given element from the given array
     public static int frequencyOfElement(String[] array, String element){
