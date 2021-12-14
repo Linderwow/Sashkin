@@ -1,6 +1,34 @@
 package day26_CustomMethodsPractice;
 
 public class FrequencyOfElement {
+
+    public static void main(String[] args) {
+        int[] arr = {1,1,1,11,1,2,2,3,3,3,4,4,1,1,1,1};
+
+        int n = frequencyOfElement(arr, 1);
+
+        System.out.println(n);
+
+
+    }
+
+
+    //                               [1,1,1,2,3,4,5]     1
+    public static int frequencyOfElement(int[] array, int element){
+        int count = 0;
+        for (int each : array) {
+            if(each == element){
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+
+
+
+
 }
 /*
 1. Create a class named FrequencyOfElement:
