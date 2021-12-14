@@ -13,10 +13,22 @@ public class FrequencyOfElement {
     }
 
 
-    //                               [1,1,1,2,3,4,5]     1
+    //returns the frequency of the given element from the given array
     public static int frequencyOfElement(int[] array, int element){
         int count = 0;
         for (int each : array) {
+            if(each == element){
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+    //returns the frequency of the given element from the given array
+    public static int frequencyOfElement(double[] array, double element){
+        int count = 0;
+        for (double each : array) {
             if(each == element){
                 count++;
             }
