@@ -14,7 +14,7 @@ public class RemoveElements2 {
 
         int[] result = {};
 
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < array.length; i++) {// i: array's index number
             if(i != index){
               result = ArraysUtility.addElement(result, array[i]);
             }
