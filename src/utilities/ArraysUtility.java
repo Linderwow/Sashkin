@@ -111,7 +111,6 @@ public class ArraysUtility {
     }
 
 
-
     //checks if the given String is contained in the given array. returns boolean.
     public static boolean contains(String[] array, String element){
 
@@ -128,8 +127,76 @@ public class ArraysUtility {
 
 
 
-    //merger
-    //addElements
+    // adds the given element to array, returns a new array
+    public static int[] addElement(int[] array, int element){
+        int[] result = new int[array.length + 1];
+
+        int i =0;
+        for (int each : array) {
+            result[i++] = each;
+        }
+
+        result[i] = element;
+
+        return result;
+    }
+
+
+    // adds the given element to array, returns a new array
+    public static double[] addElement(double[] array, double element){
+        double[] result = new double[array.length + 1];
+
+        int i =0;
+        for (double each : array) {
+            result[i++] = each;
+        }
+
+        result[result.length-1] = element; // element need to be assigned to the last index
+        // result[i] = element;
+
+        return result;
+
+    }
+
+
+    // adds the given element to array, returns a new array
+    public static String[] addElement(String[] array, String element){
+        String[] result = new String[array.length + 1];
+
+        int i =0;
+        for (String each : array) {
+            result[i++] = each;
+        }
+
+        result[result.length-1] = element; // element need to be assigned to the last index
+        // result[i] = element;
+
+        return result;
+
+    }
+
+
+    // adds the given element to array, returns a new array
+    public static char[] addElement(char[] array, char element){
+        char[] result = new char[array.length + 1];
+
+        int i =0;
+        for (char each : array) {
+            result[i++] = each;
+        }
+
+        result[result.length-1] = element; // element need to be assigned to the last index
+        // result[i] = element;
+
+        return result;
+
+    }
+
+
+
+
+
+    //merge
     //removeElements
     //reverse
     //frequencyOfElement

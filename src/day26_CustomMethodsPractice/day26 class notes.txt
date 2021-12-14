@@ -13,6 +13,7 @@ warmup tasks:
 
 			1.4 Create a method that passes two parameters: a String array and a String element. The method returns the frequency of the given String element from the String array
 
+
 	2. Create a class named RemoveElements:
 			2.1 Create a method that passes two parametetrs: an integer array and an integer index. the method removes the element at the given index of the array and returns the new array
 					Ex:
