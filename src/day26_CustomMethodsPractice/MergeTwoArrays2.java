@@ -16,6 +16,18 @@ public class MergeTwoArrays2 {
 
         System.out.println(Arrays.toString(arr3));
 
+
+        System.out.println("----------------------------------------------");
+
+        String[] a1 = {"A", "B", "C"};
+        String[] a2 = {"D", "E", "F"};
+
+        String[] result = merge(a1, a2);
+
+        System.out.println(Arrays.toString(result));
+
+
+
     }
 
 
@@ -33,6 +45,7 @@ public class MergeTwoArrays2 {
 
        return result;
    }
+
 
     // merge the given two arrays and returns the new array
     public static double[] merge(double[] arr1, double[] arr2){
