@@ -1,8 +1,20 @@
 package day26_CustomMethodsPractice;
 
+import java.util.Arrays;
+
 public class RemoveElements1 {
 
     public static void main(String[] args) {
+
+        int[] numbers = {100, 200, 300, 400, 500, 600};
+
+        numbers = removeElement(numbers, 1); //{100, 300, 400, 500, 600}
+
+        numbers = removeElement(numbers, 1); //[100, 400, 500, 600]
+
+        System.out.println(Arrays.toString(numbers));
+
+
 
     }
 
