@@ -4,14 +4,13 @@ import utilities.ArraysUtility;
 
 public class RemoveElements2 {
 
-
+    //                              {1,2,3,4,3}         4
     public static int[] removeElement(int[] array, int index){
 
         if(index < 0 || index > array.length-1){
             System.err.println("Invalid Index Number: "+index);
             System.exit(0);
         }
-
 
         int[] result = {};
 
