@@ -7,7 +7,7 @@ public class RemoveElements1 {
     }
 
 
-    //                              {1,2,3,4, 3}   ,    4
+    //                              {1,2,3,4,3}   ,    4
     public static int[] removeElement(int[] array, int index){
 
         if(index < 0 || index > array.length-1){
