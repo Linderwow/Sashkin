@@ -68,6 +68,23 @@ public class MergeTwoArrays2 {
     }
 
 
+    // merge the given two arrays and returns the new array
+    public static String[] merge(String[] arr1, String[] arr2){
+
+        String[] result = {};
+
+        for (String each : arr1) {
+            result = ArraysUtility.addElement(result, each);
+        }
+
+        for (String each : arr2) {
+            result = ArraysUtility.addElement(result, each);
+        }
+
+        return result;
+    }
+
+
 
 
 
