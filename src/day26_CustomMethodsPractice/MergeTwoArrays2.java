@@ -19,6 +19,7 @@ public class MergeTwoArrays2 {
     }
 
 
+    // merge the given two arrays and returns the new array
    public static int[] merge(int[] arr1, int[] arr2){
        int[] result = {};
 
@@ -32,6 +33,9 @@ public class MergeTwoArrays2 {
 
        return result;
    }
+
+
+
 
 
 }
