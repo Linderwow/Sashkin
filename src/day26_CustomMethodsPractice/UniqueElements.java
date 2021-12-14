@@ -15,7 +15,7 @@ public class UniqueElements {
 
     }
 
-
+    // returns the unique elements of the array as a new array
     public static int[] uniqueElements(int[] array){
         int[] result = {}; //new int[0]
 
