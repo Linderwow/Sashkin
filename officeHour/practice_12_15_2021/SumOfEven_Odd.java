@@ -14,15 +14,16 @@ public class SumOfEven_Odd {
          int sumOfOdd=0;
          int i=5;
 
-         do {
-             if (i % 2 == 0) {
-                 sumOfEven += i; //sumOfeven =2+4=6
-             } else {
-                 sumOfOdd += i; //sumOfOdd=1+3=4
-             }
-             i++;
-         }
+        do {
+            if (i % 2 == 0) {
+                sumOfEven += i; //sumOfeven =2+4=6
+            } else {
+                sumOfOdd += i; //sumOfOdd=1+3=4
+            }
+            i++;
+        }
          while(i<=10);
+
         System.out.println("Sum of even numbers are "+sumOfEven);
         System.out.println("Sum of odd numbers are "+sumOfOdd);
     }
