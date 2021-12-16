@@ -34,6 +34,16 @@ public class WrapperClassesIntro {
         Integer num4 = num3; //autoboxing
 
 
+        System.out.println("------------------------------------");
+
+        Integer z = 900;
+        Integer y =z;
+
+        System.out.println("---------------------------------");
+
+        int[] numbers1 = {1,2,3,4,5};
+        Integer[] numbers2 = {1,2,3,4,5};
+
 
 
     }
