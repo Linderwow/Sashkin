@@ -53,6 +53,38 @@ public class ReplaceAll {
     }
 
 
+    // replaces all the matching old values of the array with the new value
+    public static char[] replaceAll(char[] array, char oldValue, char newValue) {
+
+        for (int i = 0; i < array.length; i++) {
+
+            if (array[i] == oldValue) {
+                array[i] = newValue;
+            }
+
+        }
+
+        return array;
+
+    }
+
+
+    // replaces all the matching old values of the array with the new value
+    public static String[] replaceAll(String[] array, String oldValue, String newValue) {
+
+        for (int i = 0; i < array.length; i++) {
+
+            if (array[i].equals( oldValue) ) {
+                array[i] = newValue;
+            }
+
+        }
+
+        return array;
+
+    }
+
+
 
 
 }
