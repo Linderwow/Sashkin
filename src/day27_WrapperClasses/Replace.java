@@ -22,7 +22,7 @@ public class Replace {
     }
 
 
-    //
+    //replace the elements of the array at given index with the new element
     public static int[] replace(int[] array, int index, int newElement){
 
         if(index <0 || index > array.length-1){
@@ -35,7 +35,7 @@ public class Replace {
     }
 
 
-
+    //replace the elements of the array at given index with the new element
     public static double[] replace(double[] array, int index, double newElement){
 
         if(index <0 || index > array.length-1){
@@ -48,7 +48,7 @@ public class Replace {
     }
 
 
-
+    //replace the elements of the array at given index with the new element
     public static char[] replace(char[] array, int index, char newElement){
 
         if(index <0 || index > array.length-1){
@@ -61,6 +61,7 @@ public class Replace {
     }
 
 
+    //replace the elements of the array at given index with the new element
     public static String[] replace(String[] array, int index, String newElement){
 
         if(index <0 || index > array.length-1){
