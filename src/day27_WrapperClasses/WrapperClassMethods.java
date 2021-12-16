@@ -30,6 +30,30 @@ public class WrapperClassMethods {
         System.out.println("min2 = " + min2);
 
 
+        String s1 = "maybe";
+
+        boolean r1 = Boolean.parseBoolean(s1);
+
+        System.out.println(r1);
+
+        System.out.println("--------------------------------------------");
+
+        String s2 = "123";
+        Integer x = Integer.valueOf(s2); //Integer
+        int y = Integer.valueOf(s2);// Integer
+
+        System.out.println(x);
+        System.out.println(y);
+
+        String s3 = "1.5";
+        Double z = Double.valueOf(s3);// Double
+
+        System.out.println(z);
+
+        System.out.println("-----------------------------------------------------");
+
+
+
 
 
     }

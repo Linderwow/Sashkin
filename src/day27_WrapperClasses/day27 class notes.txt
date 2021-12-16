@@ -41,7 +41,7 @@ Wrapper classes:
 		
 		1. parse methods: converts String to primitive
 
-		2. valueOf methods
+		2. valueOf methods: converts String to wrapper class
 
 
 
