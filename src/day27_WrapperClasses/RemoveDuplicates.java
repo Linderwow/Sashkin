@@ -17,7 +17,7 @@ public class RemoveDuplicates {
     }
 
 
-    //
+    //removes the duplicates from the given array, returns the new array
     public static int[] removeDuplicates(int[] array){
 
         int[] result = {};//{1,
