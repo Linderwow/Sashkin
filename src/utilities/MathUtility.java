@@ -3,8 +3,6 @@ package utilities;
 public class MathUtility {
 
     /*
-    1. Create a class called MathUtility under the utility package:
-
 			2.1 Create a method that can return the sum of two integers
 			2.2 Create a method that can return the sum of two decimal numbers
 
