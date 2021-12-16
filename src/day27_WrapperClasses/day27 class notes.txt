@@ -24,3 +24,11 @@ warmup tasks:
 
 
 		2.2 Create the same functions for double arrays, char arrays, and String arrays
+
+
+
+Data Structures:
+	
+	1. Array: supports primitives & non primitives
+	2. Collection: ONLY support non-primitives
+	3. Map: ONLY support non-primitives
