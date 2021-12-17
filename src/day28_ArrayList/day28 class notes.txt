@@ -39,7 +39,12 @@ ArrayList Methods:
 
 	add(index, Data): inserts the data at the given index
 
+	size(): returns the total number of elements
 
+	get(index): returns the element at the given index
+
+
+	set(index,  Data): replaces the element at given index with the new element.
 
 
 
