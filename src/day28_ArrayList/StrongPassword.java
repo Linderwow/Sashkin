@@ -32,8 +32,7 @@ public class StrongPassword {
         boolean isStrongPassword = r1 && r2 && r3 && r4 && r5;
 
         System.out.println("isStrongPassword = " + isStrongPassword);
-        
-        
+
 
     }
 
