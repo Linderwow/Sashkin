@@ -54,6 +54,13 @@ public class ArrayListMethods2 {
 
         System.out.println("--------------------------------------------");
 
+       boolean r2 =  characters.contains('A');
+       
+      boolean r3 = characters.contains('Z');
+
+        System.out.println("r2 = " + r2);
+        System.out.println("r3 = " + r3);
+        
 
     }
 
