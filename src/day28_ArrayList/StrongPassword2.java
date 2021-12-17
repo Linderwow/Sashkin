@@ -23,6 +23,8 @@ public class StrongPassword2 {
             }else{
                 countSpecialChar++;
             }
+
+
         }
 
 /*
@@ -37,7 +39,24 @@ public class StrongPassword2 {
         boolean hasDigit = countDigits > 0;
         boolean hasSpecialChar = countSpecialChar > 0;
 
-        boolean strongPassword = password.length() >= 8 && !password.contains(" ") && hasSpecialChar && hasLowercase && hasUpperCase && hasDigit;
+    //    boolean strongPassword = password.length() >= 8 && !password.contains(" ") && hasSpecialChar && hasLowercase && hasUpperCase && hasDigit;
+
+        boolean strongPassword =false;
+
+        if(password.length() >= 8){
+            if(!password.contains(" ")){
+                if(hasUpperCase){
+                    if(hasLowercase){
+                        if(hasDigit){
+                            if(hasSpecialChar){
+                                strongPassword = true;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
 
         System.out.println("strongPassword = " + strongPassword);
 

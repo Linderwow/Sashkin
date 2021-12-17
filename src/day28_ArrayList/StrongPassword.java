@@ -25,7 +25,13 @@ public class StrongPassword {
             }else{ // special char
                 r4 = true;
             }
-            
+
+          /*
+            if(r2 && r3 && r4 && r5){
+                break;
+            }
+            */
+
         }
         
         
