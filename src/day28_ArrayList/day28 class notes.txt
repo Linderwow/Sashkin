@@ -49,7 +49,11 @@ ArrayList Methods:
 
 	remove(int index): removes the element at the given index
 
-	remove(Object): removes the given object from arraylist
+	remove(Object): removes the given object from arraylist, returns boolean
+
+	clear(): remove all the elements of the arraylist, size will be 0
+
+
 
 
 
