@@ -57,7 +57,9 @@ ArrayList Methods:
 
 	lastIndexOf(Data): returns the last matching element's index number, returns int
 
+	contains(Data): returns true if the element is contained in the arraylist, otherwise returns false
 
+	equals(ArrayList): returns true if two arraylists are equal (same elements in same order), otherwise returns false
 
 
 
