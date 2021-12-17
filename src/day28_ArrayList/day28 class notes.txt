@@ -47,8 +47,9 @@ ArrayList Methods:
 	set(index,  Data): replaces the element at given index with the new element.
 
 
+	remove(int index): removes the element at the given index
 
-
+	remove(Object): removes the given object from arraylist
 
 
 
