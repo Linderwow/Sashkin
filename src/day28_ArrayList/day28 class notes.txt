@@ -32,3 +32,34 @@ Data Structure:
 
 
 ArrayList: part of the collection. internally uses the array
+
+
+ArrayList Methods:
+	add(Data): adds the data after the last index of the ArrayList
+
+	add(index, Data): inserts the data at the given index
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
