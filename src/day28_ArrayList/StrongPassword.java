@@ -4,7 +4,7 @@ public class StrongPassword {
 
     public static void main(String[] args) {
 
-        String password = "Cydeo1990@";
+        String password = "Cydeozxc@";
         
         boolean r1 = password.length() >= 8 && !password.contains(" ");
         boolean r2 = false; // has upper case
