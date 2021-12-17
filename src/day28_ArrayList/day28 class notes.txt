@@ -11,3 +11,24 @@ Warmup tasks:
         1.3 PassWord should at least contain one lower case letter
         1.4 Password should at least contain one special characters
         1.5 Password should at least contain a digit
+
+
+
+
+
+
+Insert:
+	
+	arr = {1,2,3,4,5};
+
+	insert(arr, 2, 40) ==> {1,2, 40,3,4,5 }
+
+
+
+Data Structure:
+	Array: size is fixed, supports both primitives & non primitives
+	Collection: size is dynamic, does not support primitives
+
+
+
+ArrayList: part of the collection. internally uses the array
