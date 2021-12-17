@@ -1,6 +1,7 @@
 package day28_ArrayList;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ArrayListMethods2 {
 
@@ -76,8 +77,19 @@ public class ArrayListMethods2 {
         System.out.println(list1 == list2);
         System.out.println(list1.equals(list2));
 
+        System.out.println("-----------------------------------------");
+        list1.clear();
+       boolean r4 =  list1.isEmpty(); // true
 
-        
+        System.out.println("r4 = " + r4);
+
+        System.out.println("----------------------------------");
+
+        ArrayList<Integer> numbers = new ArrayList<>();
+    //Bulk Operation: CollectionType
+        numbers.addAll( Arrays.asList(1,2,3,4,5,6,7) );
+
+        System.out.println(numbers);
 
     }
 
