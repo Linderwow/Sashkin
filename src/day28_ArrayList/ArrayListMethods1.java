@@ -20,6 +20,13 @@ public class ArrayListMethods1 {
         System.out.println(numbers);
 
 
+        System.out.println( numbers.size() );
+
+        int lastIndex = numbers.size() - 1;
+
+        System.out.println("lastIndex = " + lastIndex);
+
+
 
     }
 
