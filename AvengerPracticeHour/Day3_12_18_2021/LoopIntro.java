@@ -40,9 +40,8 @@ public class LoopIntro {
         System.out.println();
         System.out.println("===========================");
 //even numbers from 100 to 0
-        System.out.print(0);
         for (int i = 98; i >=0; i-=2) {
-            System.out.print( " "+i);
+            System.out.print( "="+i);
         }
 
     }
