@@ -8,10 +8,7 @@ public class WritingTillWord {
  *                                 Code → "CCoCodCode"
  *                                 abc → "aababc"
  *                                 ab → "aab"
- *                                 (do with charAt())
- *                                 Code → "C-Co-Cod-Code"
- *                                 abc → "a-ab-abc"
- *                                 ab → "a-ab"
+ *
  */
 
 public static void main(String[] args) {
@@ -28,15 +25,22 @@ public static void main(String[] args) {
     System.out.println("code = " + code);
 
 
- */
+ */ //0123
+    //Code
+    //od
 
-
-
-    for (int i = 1; i <=word.length() ; i++) {
+    String var=word.substring(0);
+    String var2=word.substring(1,3);
+    System.out.println("var2 = " + var2);
+    System.out.println("var = " + var);
+/*
+    for (int i = 0; i <=word.length() ; i++) {
         String tem=word.substring(0,i);
         System.out.print( tem);
     }
 
+
+ */
 
 }
 }
