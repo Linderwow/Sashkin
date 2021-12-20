@@ -1,0 +1,19 @@
+Java Day29
+Topic: ArrayList Continue
+	   Collections Utility Class
+
+
+package name: day29_ArrayList
+
+
+warmup tasks:
+	1. Write a program that can return the first unique elements from an arraylist
+
+			Do not use indexOf & lastIndexOf methods
+
+
+	2. Write a program that can find the maximum, minimum and average number from an arrayList of integers
+
+
+
+
