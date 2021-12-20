@@ -46,6 +46,8 @@ Collections: utility class of collection
 	swap()
 	max()
 	min()
+	replaceAll()
+	frequency()
 
 
 
