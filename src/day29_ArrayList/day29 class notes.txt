@@ -51,6 +51,16 @@ Collections: utility class of collection
 
 
 
+Array vs ArrayList: both has index numbers
+		
+		ArrayList: size is not fixed
+				   only supports non-primitives
+				   Can not be multi-dimensional
+
+		Array: size is fixed
+			   supports both primitives & non-primitives
+			   Can be multi-Dimensional
+
 
 
 
