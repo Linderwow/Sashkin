@@ -31,9 +31,28 @@ Arrays:
 
 
 
-
 Remove functions:
 	remove(): when we remove one element. DO NOT use it in the loop
 	removeAll(): when we remove multiple elements ( if the elements that we want to remove are known)
 	retainAll(): when we want to retain multiple elements (if the elements that we want to retain are know)
 	removeIf(): when we remove under a condition (if the elements we want to remove are unknown)
+
+
+
+Collections: utility class of collection
+	
+	sort()
+	reverse()
+	swap()
+
+
+
+
+
+
+
+
+
+
+
+
