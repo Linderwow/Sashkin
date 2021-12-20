@@ -19,10 +19,12 @@ public class UniqueCharacters {
         String unique = "";
 
         for (String each : list) {
+
            int frequency =  Collections.frequency(list, each);
            if(frequency == 1){
               unique += each;
            }
+
         }
 
 
