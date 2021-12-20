@@ -36,6 +36,13 @@ public class CollectionsUtility {
 
         System.out.println(list3);
 
+        System.out.println("-----------------------------------");
+
+        int max = Collections.max(list3);
+        int min = Collections.min(list3);
+
+        System.out.println("min = " + min);
+        System.out.println("max = " + max);
 
     }
 

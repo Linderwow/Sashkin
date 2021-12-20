@@ -44,6 +44,8 @@ Collections: utility class of collection
 	sort()
 	reverse()
 	swap()
+	max()
+	min()
 
 
 
