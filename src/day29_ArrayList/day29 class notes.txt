@@ -72,5 +72,8 @@ Array vs ArrayList: both has index numbers
 			output:
 				4
 
+Tomorrow: Custom Class
+
+
 
 
