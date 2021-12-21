@@ -36,5 +36,13 @@ public class Car {
     }
 
 
+    public void start(){
+        System.out.println(brand+" "+model+" has started");
+    }
+
+    public void stop(){
+        System.out.println(brand+" "+model+" has stopped");
+    }
+
 
 }
