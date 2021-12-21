@@ -56,6 +56,11 @@ public class WarmupTasks {
             }
         }
 
+        for (Integer each : list2) {
+            if(each == 0){
+                result.add(each);
+            }
+        }
 
         System.out.println(result);
 
