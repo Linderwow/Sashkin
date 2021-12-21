@@ -64,6 +64,9 @@ Carobjects:
 class starta at 2:15 pm
 
 
+this. keyword: used for calling the instance variables
+
+
 
 
 
