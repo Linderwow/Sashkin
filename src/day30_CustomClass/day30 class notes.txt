@@ -35,7 +35,7 @@ Custom Class:
 	...
 
 
-Car:
+Car Class:
 	
 	Attributes:
 		brand, model, color, year, price
@@ -44,6 +44,16 @@ Car:
 		drive(), start(), stop(), toString(), setInfo()
 
 
+Student Class:
+	
+	Attributes: 
+		name, gender, age, studentID
+
+	Actions:
+		eat(), sleep(), drink(), code()
+		setInfo(): to set all the attributes of student object
+		toString(): to print the full info of student
+
 
 Carobjects:
 	
@@ -51,7 +61,7 @@ Carobjects:
 
 
 
-
+class starta at 2:15 pm
 
 
 
