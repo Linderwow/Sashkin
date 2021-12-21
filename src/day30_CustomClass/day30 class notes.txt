@@ -27,4 +27,14 @@ warmup tasks:
 					
 
 
-Method Short quiz due by 11:35 am
+Custom Class:
+	1. Instance variables & instance methods
+	2. toString,
+	3. Constrctores
+	4. statics
+	...
+
+
+
+
+
