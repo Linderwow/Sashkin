@@ -35,6 +35,25 @@ Custom Class:
 	...
 
 
+Car:
+	
+	Attributes:
+		brand, model, color, year, price
+
+	Actions:
+		drive(), start(), stop(), toString(), setInfo()
+
+
+
+Carobjects:
+	
+	create 3 objects of Car
+
+
+
+
+
+
 
 
 
