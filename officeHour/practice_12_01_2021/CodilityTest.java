@@ -5,6 +5,7 @@ public class CodilityTest {
     public static void main(String[] args) {
 
 
+
     /*
      Write a function:
 				       that, given a positive integer N  However, any number divisible by 2, 3 or 5 should be replaced by the word

@@ -16,6 +16,7 @@ public class ArrayIntro {
         color2[0]="Red";
         color2[1]="Orange";
         color2[2]="Green";
+        color2[3]="blue";
 
         System.out.println(Arrays.toString(color2));
         System.out.println(color[1]);
