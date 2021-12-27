@@ -45,6 +45,14 @@ public class MyScrumTeam {
             System.out.println(eachDeveloper.name +" : "+ eachDeveloper.salary);
         }
 
+        System.out.println("------------------------------------------------------");
+
+        scrum.removeTester( 23 );
+        scrum.removeDeveloper( 22 );
+
+        System.out.println(scrum);
+
+
 
     }
 
