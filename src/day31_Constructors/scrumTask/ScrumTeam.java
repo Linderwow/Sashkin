@@ -1,6 +1,7 @@
 package day31_Constructors.scrumTask;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ScrumTeam {
 
@@ -15,6 +16,32 @@ public class ScrumTeam {
         this.SM = SM;
         this.daysOfSprint = daysOfSprint;
     }
+
+    public void addTester(Tester tester){
+        testersList.add( tester );
+    }
+
+    public void addTesters(Tester[] testers){
+        testersList.addAll( Arrays.asList(testers) );
+    }
+
+    public void addDeveloper(Developer developer){
+        devopsList.add( developer );
+    }
+
+    public void addDevelopers(Developer[] developers){
+        devopsList.addAll( Arrays.asList(developers) );
+    }
+
+    public void removeTester(int employeeID){
+        testersList.removeIf( p ->  p.employeeID == employeeID );
+    }
+
+    public void removeDeveloper(int employeeID){
+        devopsList.removeIf( p -> p.employeeID == employeeID);
+    }
+
+
 
 
 
