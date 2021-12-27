@@ -19,7 +19,14 @@ public class Pizza {
         return totalPrice;
     }
 
-
+    public String toString() {
+        return "Pizza{" +
+                "size=" + size +
+                ", numberOfCheeseTopping=" + numberOfCheeseTopping +
+                ", numberOfPepperoniTopping=" + numberOfPepperoniTopping +
+                ", total price= $" + calcCost() +
+                '}';
+    }
 
 }
 
