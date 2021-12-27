@@ -20,6 +20,22 @@ public class BankAccount {
     }
 
 
+    public void checkBalance(){
+        System.out.println("Your available balance is: "+ balance);
+    }
+
+    public void deposit(double amount){
+        if(amount <= 0){
+            System.out.println("Depositing amount can not be zero or negative");
+            return; // exits the method
+        }
+
+        balance += amount;
+    }
+
+
+
+
 
 }
 
