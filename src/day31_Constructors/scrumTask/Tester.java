@@ -23,6 +23,13 @@ public class Tester {
                 '}';
     }
 
+    public void smokeTesting(){
+        System.out.println(name+" is smoke testing");
+    }
+
+    public void creatingTicket(){
+        System.out.println(name+" is creating ticket");
+    }
 
 
 }
@@ -36,5 +43,5 @@ create a class called Tester
 	        Add A constructor that can set all the fields
 
 	        Actions:
-	           smokeTesting(),  creatingTicket(), dailyStandUp() toString()
+	           smokeTesting(),  creatingTicket(),  toString()
  */
