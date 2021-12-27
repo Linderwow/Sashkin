@@ -15,7 +15,7 @@ public class BankAccount {
         return "BankAccount{" +
                 "accountHolder='" + accountHolder + '\'' +
                 ", accountNumber=" + accountNumber +
-                ", balance=" + balance +
+                ", balance= $" + balance +
                 '}';
     }
 
