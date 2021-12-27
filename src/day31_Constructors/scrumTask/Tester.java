@@ -19,7 +19,7 @@ public class Tester {
                 "name='" + name + '\'' +
                 ", employeeID=" + employeeID +
                 ", jobTitle='" + jobTitle + '\'' +
-                ", salary=" + salary +
+                ", salary= $" + salary +
                 '}';
     }
 
