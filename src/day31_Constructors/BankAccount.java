@@ -33,7 +33,19 @@ public class BankAccount {
         balance += amount;
     }
 
+    public void withdraw(double amount){
+        if(amount > balance){ // if withdrawing amount is greater than available balance
+            System.out.println("Insufficient balance");
+            return;
+        }
 
+        if(amount <= 0){ // if withdrawing amount is negative or zero
+            System.out.println("Withdrawing amount can not be negative or zero");
+            return;
+        }
+
+        balance -= amount;
+    }
 
 
 
