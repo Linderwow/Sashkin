@@ -38,9 +38,15 @@ public class MyOffers {
         System.out.println(fullTimeOffers.size());
 
         ArrayList<Offer> localOffers = new ArrayList<>( Arrays.asList( myOffers )  );
-        localOffers.removeIf( p -> !p.location.equals("VA") ); // removes the offer if the offer is not from local area
+        localOffers.removeIf( p -> !( p.location.equals("VA") || p.location.equals("CA") ) ); // removes the offer if the offer is not from local area
 
         System.out.println(localOffers.size());
+
+
+        for (Offer localOffer : localOffers) {
+            System.out.println(localOffer.companyName + " : " +localOffer.salary);
+        }
+
 
 
     }
