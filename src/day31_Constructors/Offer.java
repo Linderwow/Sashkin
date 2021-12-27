@@ -18,7 +18,18 @@ public class Offer {
     }
 
 
-
+    public String toString() {
+        return "Offer{" +
+                "location='" + location + '\'' +
+                ", companyName='" + companyName + '\'' +
+                ", jobTitle='" + jobTitle + '\'' +
+                ", salary=" + salary +
+                ", hasBenefit=" + hasBenefit +
+                ", hasPTO=" + hasPTO +
+                ", isWFH=" + isWFH +
+                ", isFullTime=" + isFullTime +
+                '}';
+    }
 
 
 }
