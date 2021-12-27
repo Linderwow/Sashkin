@@ -19,7 +19,6 @@ public class BankAccount {
                 '}';
     }
 
-
     public void checkBalance(){
         System.out.println("Your available balance is: "+ balance);
     }
