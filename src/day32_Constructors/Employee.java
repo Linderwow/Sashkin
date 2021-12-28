@@ -13,5 +13,12 @@ public class Employee {
     }
 
 
-
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", gender=" + gender +
+                ", jobTitle='" + jobTitle + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
 }
