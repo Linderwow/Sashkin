@@ -12,6 +12,13 @@ public class Employee {
         this.name = name;
     }
 
+    public Employee(String name, char gender){
+      //  this(name);
+       // Employee(name);
+        this.name = name;
+        this.gender = gender;
+    }
+
 
     public String toString() {
         return "Employee{" +
@@ -21,4 +28,17 @@ public class Employee {
                 ", salary=" + salary +
                 '}';
     }
+
+
+    /*
+    public void method1(){
+        System.out.println("Method 1");
+    }
+
+
+    public void method2(){
+        method1();
+    }
+    */
+
 }
