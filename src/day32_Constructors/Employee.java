@@ -15,6 +15,7 @@ public class Employee {
     public Employee(String name, char gender){
         this(name); //this.name = name;
         this.gender = gender;
+
     }
 
     public Employee(String name, char gender, String jobTitle){
@@ -28,7 +29,11 @@ public class Employee {
     }
 
 
-
+    /*
+    public void method1(){
+        this("Aaron");
+    }
+*/
 
     public String toString() {
         return "Employee{" +
