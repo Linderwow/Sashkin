@@ -23,3 +23,6 @@ warmup task:
             if the carpet is persian  carpet, add 200$ to the totalPrice
 
 
+
+
+ArrayList Short quiz:  due by 11:35 am
