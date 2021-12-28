@@ -13,11 +13,21 @@ public class Employee {
     }
 
     public Employee(String name, char gender){
-      //  this(name);
-       // Employee(name);
-        this.name = name;
+        this(name); //this.name = name;
         this.gender = gender;
     }
+
+    public Employee(String name, char gender, String jobTitle){
+        this(name, gender);
+        this.jobTitle = jobTitle;
+    }
+
+    public Employee(String name, char gender, String jobTitle, double salary){
+        this(name, gender, jobTitle);
+        this.salary = salary;
+    }
+
+
 
 
     public String toString() {

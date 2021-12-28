@@ -26,3 +26,13 @@ warmup task:
 
 
 ArrayList Short quiz:  due by 11:35 am
+
+
+this: refers to the instances
+	
+	this. : to call instance variables & instance methods
+	this() : used for calling the constructors
+
+
+Constructor Call:
+		1. Constructor can not be called by its name ( this() need to be used )
