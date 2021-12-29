@@ -8,7 +8,7 @@ public class Array_Switch {
 
         for (String s:things) {
 
-            switch (s.charAt(1)) {
+            switch (s.charAt(1)) {  //451452323
                 case 'h':
                     System.out.print(1);
                     break;

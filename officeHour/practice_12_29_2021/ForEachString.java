@@ -12,6 +12,9 @@ public class ForEachString {
 
         for (String word:words) {
             other[index++] = word + word.length();
+    //               0      one + 3 = one3
+            //       1      two + 3 = two3
+            //       2      three + 5 = three5
         }
 
         System.out.println(Arrays.toString(other));

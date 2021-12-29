@@ -10,8 +10,9 @@ public class BooleanArray {
         boolean [] bArr = new boolean[arr.length];
 
         for (int i = arr.length-1; i >-1 ; i--) {
-             if(arr[i]%2==0){
+             if(arr[i]%2 == 0){
                  bArr[arr.length-1-i]=true;
+                 // bArr[0]=true
              }
         }
 
