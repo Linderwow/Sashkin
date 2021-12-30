@@ -1,12 +1,11 @@
 Java Day33
-Topic: Statics
+Topic:  1. Creating Multiple class in a file
+		2. Statics
 			- Variables
 			- Methods
 			- static import
 
-		Creating Multiple class in a file
 
-		 
 Package name: day33_Statics
 
 
