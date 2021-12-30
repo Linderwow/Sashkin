@@ -42,7 +42,15 @@ public class Student {
         this.grade = grade;
     }
 
-
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", gender=" + gender +
+                ", age=" + age +
+                ", studentID=" + studentID +
+                ", grade=" + grade +
+                '}';
+    }
 
 
 }
