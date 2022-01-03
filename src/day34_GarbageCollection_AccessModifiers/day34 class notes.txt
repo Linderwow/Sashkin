@@ -11,4 +11,13 @@ Topics:
 package name: day34_GarbageCollection_AccessModifiers
 
 
+static block: used for initializing static variables
+			  gets executed as son as the class is loaded
+			  runs first before everything, only runs one time
+
+
+
+Constructors short quiz due by 11:45 am
+
+
 
