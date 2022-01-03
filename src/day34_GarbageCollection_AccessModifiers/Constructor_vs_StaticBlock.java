@@ -21,5 +21,4 @@ public class Constructor_vs_StaticBlock {
     }
 
 
-
 }
