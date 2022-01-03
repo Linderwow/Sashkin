@@ -54,6 +54,8 @@ Garbage Collector: responsible for collecting the unreferenced objects from java
 
 
 Access Modifiers: define the accessibility
+		
+		public > protected > default > private
 
 	private: ONLY reachable within the same class
 
@@ -62,7 +64,7 @@ Access Modifiers: define the accessibility
 	public: ALWAYS rechable
 
 
-	
+
 
 
 
