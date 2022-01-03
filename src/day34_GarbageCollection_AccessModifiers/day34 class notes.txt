@@ -1,0 +1,14 @@
+Java Day34
+Topics:
+		1. Static Continue:
+				static block
+				static import
+
+		2. Garbage Collection
+		3. Access Modifiers: public, private, default
+
+
+package name: day34_GarbageCollection_AccessModifiers
+
+
+
