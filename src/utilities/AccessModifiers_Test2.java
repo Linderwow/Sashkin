@@ -11,6 +11,12 @@ public class AccessModifiers_Test2 {
      //   System.out.println( AccessModifiers.privateData ); //private access modifier is not visible outside class
 
 
+        AccessModifiers.method1();
+   //     AccessModifiers.method2();
+    //    AccessModifiers.method3();
+
+
+
     }
 
 }
