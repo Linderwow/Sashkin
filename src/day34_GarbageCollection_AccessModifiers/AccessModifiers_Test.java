@@ -8,6 +8,10 @@ public class AccessModifiers_Test {
         System.out.println( AccessModifiers.defaultData );
     //    System.out.println( AccessModifiers.privateData ); // private is not visible outside the class
 
+        AccessModifiers.method1();
+        AccessModifiers.method2();
+    //    AccessModifiers.method3(); // private is not visible outside the class
+
 
     }
 
