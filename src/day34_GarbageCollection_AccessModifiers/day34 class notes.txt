@@ -53,6 +53,16 @@ Garbage Collector: responsible for collecting the unreferenced objects from java
 
 
 
+Access Modifiers: define the accessibility
+
+	private: ONLY reachable within the same class
+
+	default: ONLY reachable within the same package
+
+	public: ALWAYS rechable
+
+
+	
 
 
 
