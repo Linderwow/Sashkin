@@ -40,7 +40,6 @@ public class Employee {
         this.name = name;
     }
 
-
     public void setGender(char gender) {
         if(  !(gender == 'M' || gender == 'F')  ){
             return;
@@ -48,7 +47,6 @@ public class Employee {
 
         this.gender = gender;
     }
-
 
     public void setAge(int age) {
         if(age < 16 || age > 90){
@@ -73,6 +71,8 @@ public class Employee {
                 ", salary=" + salary +
                 '}';
     }
+
+
 }
 
 /*
