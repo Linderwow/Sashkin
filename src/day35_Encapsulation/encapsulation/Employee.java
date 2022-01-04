@@ -28,18 +28,32 @@ public class Employee {
         if(name.isEmpty()){
             return;
         }
+
         this.name = name;
     }
 
+
     public void setGender(char gender) {
+        if(  !(gender == 'M' || gender == 'F')  ){
+            return;
+        }
+
         this.gender = gender;
     }
 
+
     public void setAge(int age) {
+        if(age < 16 || age > 90){
+            return;
+        }
+
         this.age = age;
     }
 
     public void setSalary(double salary) {
+        if(salary <=0){
+            return;
+        }
         this.salary = salary;
     }
 
