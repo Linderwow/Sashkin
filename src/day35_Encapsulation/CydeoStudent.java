@@ -47,6 +47,19 @@ public class CydeoStudent {
         System.out.println(name + " is studying.");
     }
 
+    public String toString() {
+        return "CydeoStudent{" +
+                "name='" + name + '\'' +
+                ", gender=" + gender +
+                ", age=" + age +
+                ", batchNumber=" + batchNumber +
+                ", groupNumber=" + groupNumber +
+                ", fieldOfStudy='" + fieldOfStudy + '\'' +
+                ", school='" + schoolName + '\'' +
+                ", programming language='" + programmingLanguage + '\'' +
+                '}';
+    }
+
 
 }
 
