@@ -7,6 +7,14 @@ public class Employee {
     private int age;
     private double salary;
 
+    public Employee(String name, char gender, int age, double salary) {
+        setName(name);
+        setGender(gender);
+        setAge(age);
+        setSalary(salary);
+    }
+
+
     public String getName() {
         return name;
     }
