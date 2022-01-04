@@ -27,7 +27,25 @@ public class CydeoStudent {
         secretCode = "Wooden Spoon";
     }
 
+    public static void printProgrammingLanguage() {
+        System.out.println("language is " + programmingLanguage);
+    }
 
+    public static void printSchoolName() {
+        System.out.println("school is " + schoolName);
+    }
+
+    public static void printSecretCode() {
+        System.out.println("code is " + secretCode);
+    }
+
+    public void attendClass() {
+        System.out.println(name + " is attending class. ");
+    }
+
+    public void study() {
+        System.out.println(name + " is studying.");
+    }
 
 
 }
