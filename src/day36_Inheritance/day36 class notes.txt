@@ -103,6 +103,15 @@ Task:
 	...
 
 
+
+import vs extends:
+		import: borrowing
+		extends: owning
+
+
+	inherit ->pass it through
+	import -> let using
+
 	
 
 
