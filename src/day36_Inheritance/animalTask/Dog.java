@@ -13,6 +13,6 @@ public class Dog extends Animal  { //Dog Is An animal
 /*
     dog:
         6 variables
-        6 methods
+        7 methods
 
  */
