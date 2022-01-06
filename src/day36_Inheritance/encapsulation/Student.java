@@ -7,6 +7,14 @@ public class Student {
     private char gender, grade;
     private String schoolName;
 
+    public Student(String name, int age, char gender, char grade, String schoolName) {
+        setName(name);
+        setAge(age);
+        setGender(gender);
+        setGrade(grade);
+        setSchoolName(schoolName);
+    }
+
 
 
     public String getName(){
@@ -77,7 +85,7 @@ public class Student {
 						2. gender should not be set to any chanarcter other than: 'M' and 'F'
 						3. grade should not be set to any chanacters other than: 'A', 'B', 'C', 'D', and 'F'
 
-			Add a constructor that can set all teh fields when the object is created
+			Add a constructor that can set all the fields when the object is created
 						(requirements of fileds in the above must be applied)
 
 
