@@ -23,7 +23,7 @@ public class Student {
 
     public void setAge(int age){
         if( age < 5 || age > 90){
-            return;
+            return; // exits the method
         }
 
         this.age = age;
@@ -34,6 +34,11 @@ public class Student {
     }
 
     public void setGender(char gender) {
+
+        if( !(gender =='M' || gender == 'F') ){
+            return; // exits the method
+        }
+
         this.gender = gender;
     }
 
