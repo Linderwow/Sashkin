@@ -15,8 +15,6 @@ public class Student {
         setSchoolName(schoolName);
     }
 
-
-
     public String getName(){
         return name;
     }
@@ -69,6 +67,16 @@ public class Student {
 
     public void setSchoolName(String schoolName) {
         this.schoolName = schoolName;
+    }
+
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", grade=" + grade +
+                ", schoolName='" + schoolName + '\'' +
+                '}';
     }
 
 
