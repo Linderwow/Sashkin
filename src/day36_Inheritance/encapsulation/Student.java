@@ -69,6 +69,10 @@ public class Student {
         this.schoolName = schoolName;
     }
 
+    public void study(){
+        System.out.println(name + " is studying");
+    }
+
     public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +
