@@ -8,7 +8,7 @@ warmup tasks:
 			private variables:
 				name, age, gender, grade, schoolName
 
-			Encapsulate all the fileds (at leat encapsulate two fields manually)
+			Encapsulate all the fileds (at least encapsulate two fields manually)
 					requirments:
 						1. age should not be set less than 5 or greater than 90
 						2. gender should not be set to any chanarcter other than: 'M' and 'F'
@@ -22,4 +22,29 @@ warmup tasks:
 				study()
 				toString()
 
+
+Encapsulation: hiding the fileds by giving private access modifiers
+				
+			  use getter/setter to read/write the private data
+
+
+			  Getter (Read Only): public instance method 
+			  					  Return type is not void
+			  					  Return type must match with private instance variable' data type
+			  					  Does not pass any parameter
+			  					  Returns the private instance variables value
+
+			  Setter (Write Only): public instance method 
+			  					   Return type is void
+			  					   Passes a parameter
+			  					   Parameter' data type must match with private instance variable' data type
+			  					   reassigns the private instance variable to given argument
+
+			  					  
+
+
+
+use the data:
+	1. read
+	2. write
 
