@@ -6,6 +6,7 @@ public class Tiger extends Animal{ // Tiger Is An Animal
         System.out.println(name + "is hunting");
     }
 
+
     public void roar(){
         System.out.println(name + "is roaring");
     }
