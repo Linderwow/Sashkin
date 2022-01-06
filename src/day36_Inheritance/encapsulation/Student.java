@@ -47,6 +47,11 @@ public class Student {
     }
 
     public void setGrade(char grade) {
+
+        if( !( grade == 'A' || grade == 'B' || grade == 'C' || grade == 'D' || grade == 'F') ){
+                return; // exits the method
+        }
+
         this.grade = grade;
     }
 
