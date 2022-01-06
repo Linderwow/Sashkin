@@ -116,6 +116,30 @@ import vs extends:
 
 
 
+lunch task:
+	
+	Employee:
+		name, gender, age, jobTitle, id, salary, companyName
+		work(), toString()
+
+
+	Tester
+
+	Developer
+
+	Driver
+
+	Teacher
+
+	
+
+
+
+
+
+
+
+
 
 
 
