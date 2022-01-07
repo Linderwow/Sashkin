@@ -20,13 +20,22 @@ public class Phone {
 
     public void call(long phoneNumber){
         System.out.println(brand + " "+model+" is calling "+phoneNumber);
-
     }
+
     public void text(long phoneNUmber){
         System.out.println(brand + " "+model + " is texting "+phoneNUmber);
     }
 
-
+    public String toString() {
+        return "Phone{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", size='" + size + '\'' +
+                ", price= $" + price +
+                ", color='" + color + '\'' +
+                ", has battery='" + hasBattery + '\'' +
+                '}';
+    }
 
 
 }
