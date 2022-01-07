@@ -1,6 +1,7 @@
 package day37_Inheritance.scrumTask;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ScrumTeam {
 
@@ -21,6 +22,9 @@ public class ScrumTeam {
         testers.add( tester );
     }
 
+    public void addTesters(Tester[] testers){
+        this.testers.addAll(Arrays.asList(testers) );
+    }
 
 
 
