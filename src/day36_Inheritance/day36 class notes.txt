@@ -120,7 +120,7 @@ lunch task:
 	
 	Employee:
 		name, gender, age, jobTitle, id, salary, companyName
-		work(), toString()
+		setInfo(), work(), toString()
 
 
 	Tester
