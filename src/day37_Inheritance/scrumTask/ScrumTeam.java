@@ -38,6 +38,10 @@ public class ScrumTeam {
         this.developers.addAll( Arrays.asList(developers) );
     }
 
+    public void removeDeveloper(int id){
+        developers.removeIf( p -> p.id == id);
+    }
+
 
 
 
