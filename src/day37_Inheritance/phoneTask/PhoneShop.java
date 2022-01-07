@@ -31,6 +31,13 @@ public class PhoneShop {
         nokia.text(321098765);
         nokia.selfDefense();
 
+        System.out.println("-------------------------------------------------");
+
+        System.out.println( Phone.hasBattery );
+        System.out.println( Iphone.hasBattery );
+        System.out.println( Samsung.hasBattery );
+        System.out.println( Nokia.hasBattery );
+
 
     }
 
