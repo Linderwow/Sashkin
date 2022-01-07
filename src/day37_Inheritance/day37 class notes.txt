@@ -5,7 +5,6 @@ Topic: Super keyword
 Package name: day37_Inheritance
 
 
-
 OOP Inheritance: to build IS A relation between classes (parent and child,  super and sub)
 		
 			easiest way to get rich ===> extends 
@@ -24,6 +23,10 @@ OOP Inheritance: to build IS A relation between classes (parent and child,  supe
 
 
 		Class A  extends  Class B
+
+		one class only extends one class
+		one class can be extended by multiple classes
+
 
 
 
@@ -44,9 +47,14 @@ super keyword: referst to the instances. parent class
 			3. Parent class' constructor with argument need to be called explicitly
 
 
+Person 
+	name, age, gender
+
 
 EmployeeTask
-	Employee:
+	
+
+	Employee extends Person:
 		name, age, id, gender, jobTitle, salary
 		work(), toString()
 
@@ -65,6 +73,114 @@ EmployeeTask
 
 	Driver extends Employee
 			driving()
+
+
+	ScrumMaster extends Employee
+
+	....
+
+
+Student extends Person:
+	
+
+
+
+
+
+
+
+Multi Level Inheritance:
+
+	class Person{ // person: a
+		a
+	}
+
+	class Employee extends Person{ // employee: a, b
+		b
+	}
+
+	class Tester extends Employee{ //tester: a, b, c
+		c
+	}
+
+	class ManualTester extends Tester{ // namually tester: a, b, c, d
+		d
+	}
+
+
+
+Hierarchical inheritance:
+	
+	class Phone{
+		a
+	}
+
+	class Iphone extends Phone{ // iphone: a, b.   //Iphone IS A Phone
+		b
+	}
+
+	class Samsung extends Phone{ // samsung: a, c   //Samsung IS A Phone
+		c
+	}
+
+	class LG extends Phone{ //LG: a d 			// LG IS A Phone
+		d
+	}
+
+	class Nikia extends Phone{ //Nokia: a, e
+		e
+	}
+
+
+
+
+
+
+
+A {
+	a
+}
+
+
+B extends A{ // B: ab
+	b
+}
+
+
+C extends B{  //C: abc
+	c
+}
+
+
+D extends C{ //D: abcd
+	d
+}
+
+
+
+
+
+class X{
+	x
+}
+
+class Y extends X, Z{
+	y
+}
+
+class Z{
+	z
+}
+
+
+
+Task:
+	Phone
+	ScrumTeam
+
+
+
+
 
 
 
