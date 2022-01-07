@@ -26,6 +26,18 @@ public class ScrumTeam {
         this.testers.addAll(Arrays.asList(testers) );
     }
 
+    public void removeTester(int id){
+        testers.removeIf( p -> p.id == id);
+    }
+
+    public void addDeveloper(Developer developer){
+        developers.add(developer);
+    }
+
+    public void addDevelopers(Developer[] developers){
+        this.developers.addAll( Arrays.asList(developers) );
+    }
+
 
 
 
