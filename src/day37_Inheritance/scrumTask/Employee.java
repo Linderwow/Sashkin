@@ -1,6 +1,6 @@
 package day37_Inheritance.scrumTask;
 
-public class Employee extends Person{
+public class Employee extends Person{  //
 
     public String jobTitle;
     public int id;
@@ -18,7 +18,6 @@ public class Employee extends Person{
     public void work(){
         System.out.println(jobTitle+" "+name + "is working");
     }
-
 
     public String toString() {
         return "Employee{" +
