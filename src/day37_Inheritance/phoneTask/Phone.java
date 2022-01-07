@@ -39,3 +39,16 @@ public class Phone {
 
 
 }
+
+/*
+1.1 Create a class named Phone:
+				Variables:
+					brand, model, size, price, color
+
+                Add Constructor to set all the fields
+
+				Methods:
+					call(long phoneNumber)
+					text(long phoneNumber)
+					toString()
+ */
