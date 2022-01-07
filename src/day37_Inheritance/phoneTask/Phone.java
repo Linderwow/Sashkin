@@ -18,6 +18,13 @@ public class Phone {
         this.color = color;
     }
 
+    public void call(long phoneNumber){
+        System.out.println(brand + " "+model+" is calling "+phoneNumber);
+
+    }
+    public void text(long phoneNUmber){
+        System.out.println(brand + " "+model + " is texting "+phoneNUmber);
+    }
 
 
 
