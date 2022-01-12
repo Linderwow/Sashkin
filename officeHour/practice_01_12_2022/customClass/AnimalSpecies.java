@@ -53,12 +53,12 @@ public class AnimalSpecies {
         return name;
     }
 
-//    @Override
-//    public String toString() {
-//        return "AnimalSpecies{" +
-//                "name='" + name + '\'' +
-//                ", population=" + population +
-//                ", growthRate=" + growthRate +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return "AnimalSpecies{" +
+                "name='" + name + '\'' +
+                ", population=" + population +
+                ", growthRate=" + growthRate +
+                '}';
+    }
 }

@@ -13,7 +13,7 @@ public class Earth {
         System.out.println(dogs.getGrowthRate());
         System.out.println("dogs.getName() = " + dogs.getName());
         System.out.println("dogs.getPopulation() = " + dogs.getPopulation());
-
+        System.out.println(dogs);
 
     }
 }
