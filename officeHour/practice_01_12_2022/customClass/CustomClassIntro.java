@@ -83,8 +83,8 @@ public class CustomClassIntro {
     public static void staticMethod() {
         System.out.println("Static Method is running");
         staticVariable="Static Variable From Static MEthod";
-        // instanceVariable;   Compiler ERROR
-        //  instanceMethod();
+         //instanceVariable;   Compiler ERROR
+         //instanceMethod();
                 /*
                 What is static variable?
 
