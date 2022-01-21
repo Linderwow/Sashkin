@@ -4,4 +4,8 @@ public class GOLOVA {
         System.out.println("Katya is working at Netflix");
         System.out.println("Group 32");
     }
+    public void walk(){
+        System.out.println("Walking");
+    }
+
 }
