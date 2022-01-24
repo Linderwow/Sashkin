@@ -7,4 +7,7 @@ public class GOLOVA {
             System.out.println("I am freaking out right now");
         }
     }
+    void run(){
+        System.out.println("Alex is running");
+    }
 
