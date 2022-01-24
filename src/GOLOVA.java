@@ -17,4 +17,8 @@ public class GOLOVA {
         System.out.println("Alex is running");
 
     }
+    void finalizing(){
+        System.out.println("Finalizing the project");
+    }
+
 }
