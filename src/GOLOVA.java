@@ -5,4 +5,16 @@ public class GOLOVA {
 
         System.out.println("Let's commit");
     }
+        public static void walking(){
+            System.out.println("I am walking");
+        }
+
+        public static void freakout() {
+        System.out.println("I am freaking out right now");
+    }
+
+    void run() {
+        System.out.println("Alex is running");
+
+    }
 }
