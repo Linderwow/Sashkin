@@ -3,11 +3,16 @@ public class GOLOVA {
         System.out.println("We are great coders");
         System.out.println("Katya is working at Netflix");
     }
-        public void freakout(){
-            System.out.println("I am freaking out right now");
+        public static void walking(){
+            System.out.println("I am walking");
         }
-    }
-    void run(){
-        System.out.println("Alex is running");
+
+        public static void freakout() {
+        System.out.println("I am freaking out right now");
     }
 
+    void run() {
+        System.out.println("Alex is running");
+
+    }
+}
