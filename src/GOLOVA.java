@@ -17,6 +17,9 @@ public class GOLOVA {
         System.out.println("Alex is running");
 
     }
+    public static void  newPullRequest(){
+        System.out.println("New Pull request");
+    }
     void finalizing(){
         System.out.println("Finalizing the project");
     }
